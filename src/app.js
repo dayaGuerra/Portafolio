@@ -1,4 +1,4 @@
-import { templateMe }from './template.js'
+import { templateMe, proyectosWeb }from './template.js'
 
 const changeTmp = (hash) => {
     if (hash === '#/' || hash === '' || hash === '#') {
@@ -19,6 +19,9 @@ const viewTmp = (routers) => {
   switch (router) {
   case 'sobremi':
   container.appendChild(templateMe());
+    break;
+    case 'proyectos':
+  container.appendChild(proyectosWeb());
     break;
 }
 };
