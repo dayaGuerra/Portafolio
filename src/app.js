@@ -1,4 +1,7 @@
-import { templateMe, proyectosWeb }from './template.js'
+import { templateMe }from './templates/sobremi.js'
+import { proyectosWeb }from './templates/proyectos.js'
+import { vermicv }from './templates/vermicv.js'
+import { contactame }from './templates/contacto.js'
 
 const changeTmp = (hash) => {
     if (hash === '#/' || hash === '' || hash === '#') {
@@ -17,11 +20,17 @@ const viewTmp = (routers) => {
   container.innerHTML = '';
 
   switch (router) {
-  case 'sobremi':
-  container.appendChild(templateMe());
+    case 'sobremi':
+    container.appendChild(templateMe());
     break;
     case 'proyectos':
-  container.appendChild(proyectosWeb());
+    container.appendChild(proyectosWeb());
+    break;
+    case 'cvdigital':
+    container.appendChild(vermicv());
+    break;
+    case 'contacto':
+    container.appendChild(contactame());
     break;
 }
 };
