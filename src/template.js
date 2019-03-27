@@ -3,18 +3,15 @@ export const templateMe = () => {
 	divElement.setAttribute('id', 'sobremi');
 	const tempForMe = `
 	
-	<div class="hero-image">
-	<div class="hero-text">
+	<div class="text-home left">
+
     <h1 style="font-size:50px">Soy D'yanara Guerra</h1>
     <p>Y soy Front-End Developer</p>
-  </div>
-</div>
-<div>
-<h3>My Work</h3>
-<p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-<p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    <h3>My Work</h3>
+    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
 
-</div>
+  </div>
 	`;
 	
 	divElement.innerHTML = tempForMe;

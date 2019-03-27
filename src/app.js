@@ -3,7 +3,7 @@ import { templateMe, proyectosWeb }from './template.js'
 const changeTmp = (hash) => {
     if (hash === '#/' || hash === '' || hash === '#') {
       return viewTmp('#/sobremi');
-    } else if (hash === '#/sobremi' || hash === '#/proyectos' || hash === '#/cvdigital') {
+    } else if (hash === '#/sobremi' || hash === '#/proyectos' || hash === '#/cvdigital' || hash === '#/contacto') {
       return viewTmp(hash);
     } else {
       return viewTmp('#/different');
