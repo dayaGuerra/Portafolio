@@ -3,24 +3,37 @@ export const proyectosWeb = () => {
     divElement.setAttribute('id', 'proyectos');
     const tempForMe = `
     <!-- Page Content -->
-    <div class="container">
+    <div class="container margin">
 
       <!-- Page Heading -->
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+      <h1 class="my-4">Proyectos
+        <small>Últimos proyectos realizados</small>
       </h1>
 
       <!-- Project One -->
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/md-links.png" alt="md-link proyecto">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project One</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <h3>Librería md-links</h3>
+          <p>CLI y API</p>
+          <ul>
+          <li>
+          Muestra todos los archivos markdown (.md) colocando el comando md-links y seguido de la ruta ./some/example.md</li>
+          <li>Busca todos los links dentro del archivo .md</li>
+          <li>Realiza peticiones HTTP para validar el link --validate</li>
+          <li>Muestra el total de links encontrados y los links unicos hallados --stats
+          Muestra el total de links rotos encontrados--stats -- validate</li>
+          </ul>
+          <p>Código vanilla</p>
+          <p>NodeJs</p>
+          <p>Regex</p>
+          <p>Node fetch</p>
+
+          <a class="btn btn-primary" href="https://github.com/dayaGuerra/LIM008-fe-md-links">View Project</a>
         </div>
       </div>
       <!-- /.row -->
@@ -31,14 +44,19 @@ export const proyectosWeb = () => {
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/ayni.png" alt="proyecto ayni red social">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project Two</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <h3>Ayni</h3>
+          <p>Ayni es la primera red social peruana que busca unir emprendedores, colaboradores y voluntarios para potenciar el alcance de sus proyectos de manera gratuita.
+
+          En Ayni podras publicar contenido de interés para la comunidad, podrás conocer los proyectos de emprendimiento con valor social más relevantes de nuestro país.</p>
+          <p>Código vanilla</p>
+          <p>Firebase</p>
+          <a class="btn btn-primary" href="https://github.com/dayaGuerra/LIM008-social-network">View Project</a>
         </div>
+        
       </div>
       <!-- /.row -->
 
@@ -48,13 +66,18 @@ export const proyectosWeb = () => {
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/injuries-data.png" alt="proyecto Injuries data Portal">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project Three</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <h3>US Injuries Data Portal</h3>
+          <p>Esta web ha sido desarrollada para mostrar la información solcitada por nuestros usuarios, que permitirá mostrar la información más relevante sobre el número de personas accidentadas en difirentes tipos de medios de tranporte en los Estados Unidos.
+
+          Cuenta con filtros que permitirán al usuario señalar el tipo de año o el rango de años específico a mostrar en pantalla. Asimismo cuenta con menú de selección que brindará al usuario la experiencia de poder ordenar de forma ascendente o descendente. Finalmente el usuario podrá mostrar la suma total de Heridos en accidentes.</p>
+          <p>Código vanilla</p>
+          <p>Uso de Google Charts</p>
+          <p>Fetch</p>
+          <a class="btn btn-primary" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-data-lovers">View Project</a>
         </div>
       </div>
       <!-- /.row -->
@@ -66,43 +89,22 @@ export const proyectosWeb = () => {
 
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/encryption-spoiler.png" alt="proyecto encryption spoiler">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project Four</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <h3>Encryption Spoiler</h3>
+          <p>Este producto fue creado para aquellos usuarios que buscan anticiparse a la trama de una película, libro u otra obra.
+
+          Es necesario, ya que NO todos los usuarios buscan saber el final o descenlace de su película u obra esperada.
+          
+          Por ello es que nace "Encryption Spoiler" un producto web que cifra tu comentario Spoiler y brinda un pequeño código al usuario que verdaderamente quiera saber del desenlace de la obra.</p>
+          <p>Código vanilla</p>
+          <a class="btn btn-primary" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-cipher">View Project</a>
         </div>
       </div>
       <!-- /.row -->
 
-      <hr>
-
-      <!-- Pagination -->
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Previous</span>
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">2</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">3</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Next</span>
-          </a>
-        </li>
-      </ul>
 
     </div>
     <!-- /.container -->

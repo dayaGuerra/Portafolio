@@ -1,4 +1,4 @@
-import { templateMe }from './templates/sobremi.js'
+import { templateMe, navBAr }from './templates/sobremi.js'
 import { proyectosWeb }from './templates/proyectos.js'
 import { vermicv }from './templates/vermicv.js'
 import { contactame }from './templates/contacto.js'
@@ -22,9 +22,11 @@ const viewTmp = (routers) => {
   switch (router) {
     case 'sobremi':
     container.appendChild(templateMe());
+  
     break;
     case 'proyectos':
     container.appendChild(proyectosWeb());
+    
     break;
     case 'cvdigital':
     container.appendChild(vermicv());
