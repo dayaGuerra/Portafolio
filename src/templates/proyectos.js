@@ -4,14 +4,15 @@ export const proyectosWeb = () => {
     const tempForMe = `
     <!-- Page Content -->
     <div class="container margin">
-
+    <div class="card border-0 shadow my-5">
+    <div class="p-5">
       <!-- Page Heading -->
       <h1 class="my-4">Proyectos
-        <small>Últimos proyectos realizados</small>
+        <h3 class="font-weight-light">Últimos proyectos realizados</h3>
       </h1>
 
       <!-- Project One -->
-      <div class="row">
+      <div class="row margin-text justify">
         <div class="col-md-7">
           <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/md-links.png" alt="md-link proyecto">
@@ -28,10 +29,12 @@ export const proyectosWeb = () => {
           <li>Muestra el total de links encontrados y los links unicos hallados --stats
           Muestra el total de links rotos encontrados--stats -- validate</li>
           </ul>
-          <p>Código vanilla</p>
-          <p>NodeJs</p>
-          <p>Regex</p>
-          <p>Node fetch</p>
+          <ul class = "herramientas">
+          <li>Código vanilla</li>
+          <li>NodeJs</li>
+          <li>Regex</li>
+          <li>Node fetch</li>
+          </ul>
 
           <a class="btn btn-primary" href="https://github.com/dayaGuerra/LIM008-fe-md-links">View Project</a>
         </div>
@@ -41,7 +44,7 @@ export const proyectosWeb = () => {
       <hr>
 
       <!-- Project Two -->
-      <div class="row">
+      <div class="row margin justify">
         <div class="col-md-7">
           <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/ayni.png" alt="proyecto ayni red social">
@@ -52,8 +55,11 @@ export const proyectosWeb = () => {
           <p>Ayni es la primera red social peruana que busca unir emprendedores, colaboradores y voluntarios para potenciar el alcance de sus proyectos de manera gratuita.
 
           En Ayni podras publicar contenido de interés para la comunidad, podrás conocer los proyectos de emprendimiento con valor social más relevantes de nuestro país.</p>
-          <p>Código vanilla</p>
-          <p>Firebase</p>
+          <ul class = "herramientas">
+          <li>Código vanilla</li>
+          <li>CSS plano</li>
+          <li>Firebase</li>
+          </ul>
           <a class="btn btn-primary" href="https://github.com/dayaGuerra/LIM008-social-network">View Project</a>
         </div>
         
@@ -63,7 +69,7 @@ export const proyectosWeb = () => {
       <hr>
 
       <!-- Project Three -->
-      <div class="row">
+      <div class="row margin justify">
         <div class="col-md-7">
           <a href="#">
             <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/injuries-data.png" alt="proyecto Injuries data Portal">
@@ -74,9 +80,13 @@ export const proyectosWeb = () => {
           <p>Esta web ha sido desarrollada para mostrar la información solcitada por nuestros usuarios, que permitirá mostrar la información más relevante sobre el número de personas accidentadas en difirentes tipos de medios de tranporte en los Estados Unidos.
 
           Cuenta con filtros que permitirán al usuario señalar el tipo de año o el rango de años específico a mostrar en pantalla. Asimismo cuenta con menú de selección que brindará al usuario la experiencia de poder ordenar de forma ascendente o descendente. Finalmente el usuario podrá mostrar la suma total de Heridos en accidentes.</p>
-          <p>Código vanilla</p>
-          <p>Uso de Google Charts</p>
-          <p>Fetch</p>
+          <ul class = "herramientas">
+          <li>Código vanilla</li>
+          <li>CSS plano</li>
+          <li>Google Charts</li>
+          <li>Fetch</li>
+          </ul>
+          
           <a class="btn btn-primary" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-data-lovers">View Project</a>
         </div>
       </div>
@@ -85,7 +95,7 @@ export const proyectosWeb = () => {
       <hr>
 
       <!-- Project Four -->
-      <div class="row">
+      <div class="row margin justify">
 
         <div class="col-md-7">
           <a href="#">
@@ -99,13 +109,17 @@ export const proyectosWeb = () => {
           Es necesario, ya que NO todos los usuarios buscan saber el final o descenlace de su película u obra esperada.
           
           Por ello es que nace "Encryption Spoiler" un producto web que cifra tu comentario Spoiler y brinda un pequeño código al usuario que verdaderamente quiera saber del desenlace de la obra.</p>
-          <p>Código vanilla</p>
+          <ul class = "herramientas">
+          <li>Código vanilla</li>
+          <li>CSS plano</li>
+          <li>manipilación de codigo ASCII</li>
+          </ul>
           <a class="btn btn-primary" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-cipher">View Project</a>
         </div>
       </div>
       <!-- /.row -->
-
-
+       </div>
+      </div>
     </div>
     <!-- /.container -->
     `;

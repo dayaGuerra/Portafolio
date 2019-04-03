@@ -12,9 +12,22 @@
 .margin {
   margin-top: 80px;
 }
+.justify{
+  text-align: justify;
+}
+.margin-bottom {
+  margin-bottom: 60px;
+}
 
 .margin-text {
   margin-top: 40px;
+}
+.width-icon{
+width: 35px;
+}
+
+.herramientas{
+  list-style-type: decimal-leading-zero;
 }
 
 #centrador{
@@ -32,4 +45,10 @@
     right: 0;
     bottom: 0;
     margin: auto;
+}
+.img-cv{
+  height: 60vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
