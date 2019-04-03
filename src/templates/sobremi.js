@@ -22,8 +22,16 @@ export const templateMe = () => {
     <div class="row h-100 align-items-center">
       <div class="col-12 ">
       <h1 class="font-weight-light">Bienvenido a mi portafolio,</h1>
-      <p class="lead">Soy D'yanara Guerra y tengo 25 años, me considero una mujer apasionada por mi trabajo, me encanta cocinar, tengo 3 bellos gatos y me gusta jugar play station por las noches.</p>
-      <p class="lead"> Ademas de explorar nuevas cosas por diversión.<a href="https://unsplash.com">Unsplash</a>!</p>
+      <p class="lead">Hola, soy D'yanara Guerra, una FrontEnd Developer con muchos sueños, tengo 25 años, me considero una mujer apasionada por mi trabajo, me encanta la cocina, tengo 3 bellos gatos y me gustan los videojuegos.</p>
+      <p class="lead"> Además me disfruto de explorar nuevas cosas por diversión!.
+      Y trato de mejorar día a día con cada tarea que realizo.</p>
+      <a class="btn btn-primary" href="#/cvdigital">Ver mi cv</a>
+
+
+
+
+
+      
     </div>
       </div>
     </div>

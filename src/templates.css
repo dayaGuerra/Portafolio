@@ -12,3 +12,24 @@
 .margin {
   margin-top: 80px;
 }
+
+.margin-text {
+  margin-top: 40px;
+}
+
+#centrador{
+  position: relative;
+  width: 50%;
+  height: 50%;
+  background-color: #B5E0D9;
+}
+
+#imagen{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
