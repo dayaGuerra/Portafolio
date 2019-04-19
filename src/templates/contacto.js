@@ -12,8 +12,8 @@
               <h1 class="font-weight-light margin-text">D'yanara Guerra riega</h1>
           </div>
                 
-            <p class="lead margin-text"> Front-End Developer con intereses en desarrollar productos web de mayor calidad, manteniendo las buenas practicas  en el desarrollo con código limpio y reutilizable, aprender mas sobre  Javascript y la librería  React.</p>
-            <p class="lead">Con  habilidades para enfrentar nuevos desafíos y la determinación de mejorar continuamente como profesional y como ser humano en cada tarea encomendada.
+            <p class="lead margin-text justify"> Front-End Developer con intereses en desarrollar productos web de mayor calidad, manteniendo las buenas practicas  en el desarrollo con código limpio y reutilizable, aprender mas sobre  Javascript y la librería  React.</p>
+            <p class="lead justify">Con  habilidades para enfrentar nuevos desafíos y la determinación de mejorar continuamente como profesional y como ser humano en cada tarea encomendada.
             Investigando y resolviendo problemas.</p>
             </div>
             </div>

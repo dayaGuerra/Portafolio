@@ -7,9 +7,9 @@ export const proyectosWeb = () => {
     <div class="card border-0 shadow my-5">
     <div class="p-5">
       <!-- Page Heading -->
-      <h1 class="my-4">Proyectos
-        <h3 class="font-weight-light">Últimos proyectos realizados</h3>
-      </h1>
+      <h2 class="font-weight-light"><strong>Proyectos</strong></h2>
+      <h1 class="font-weight-light margin-text">Últimos proyectos realizados</h1>
+      
 
       <!-- Project One -->
       <div class="row margin-text justify">

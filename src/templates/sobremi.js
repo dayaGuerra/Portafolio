@@ -17,24 +17,44 @@ export const templateMe = () => {
 	const divElement = document.createElement('div');
 	divElement.setAttribute('id', 'sobremi');
   const tempForMe = `
-  <header class="masthead">
-  <div class="container h-100">
-    <div class="row h-100 align-items-center">
-      <div class="col-12 ">
-      <h1 class="font-weight-light">Bienvenido a mi portafolio,</h1>
-      <p class="lead">Hola, soy D'yanara Guerra, una FrontEnd Developer con muchos sueños, tengo 25 años, me considero una mujer apasionada por mi trabajo, me encanta la cocina, tengo 3 bellos gatos y me gustan los videojuegos.</p>
-      <p class="lead"> Además me disfruto de explorar nuevas cosas por diversión!.
-      Y trato de mejorar día a día con cada tarea que realizo.</p>
-      <a class="btn btn-primary" href="#/cvdigital">Ver mi cv</a>
-
-
-
-
-
-      
-    </div>
+  <header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">First Slide</h3>
+          <p class="lead">This is a description for the first slide.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">Second Slide</h3>
+          <p class="lead">This is a description for the second slide.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">Third Slide</h3>
+          <p class="lead">This is a description for the third slide.</p>
+        </div>
       </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
   </div>
 </header>
 
