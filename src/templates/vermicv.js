@@ -12,22 +12,22 @@ export const vermicv = () => {
         <div class="text-center">
         <img class=" rounded card-img-top" src="https://i.ibb.co/2SqLTxQ/Whats-App-Image-2019-04-19-at-6-03-33-PM.jpg">
 
-</div>
+        </div>
 
     
-        <!-- Page Content -->
-<section class="py-5">
-  <div class="container">
-  <h1 class="font-weight-light">Descripción</h1>
-  <p class="lead justify"> Front-End Developer con intereses en desarrollar productos web de mayor calidad, manteniendo las buenas practicas  en el desarrollo con código limpio y reutilizable, aprender más sobre  Javascript y la librería  React.</p>
-  <p class="lead justify">Con  habilidades para enfrentar nuevos desafíos y la determinación de mejorar continuamente como profesional y como ser humano en cada tarea encomendada.
-  Investigando y resolviendo problemas.</p>
-  
-  </div>
-</section>
+                <!-- Page Content -->
+        <section class="py-5">
+        <div class="container">
+        <h1 class="font-weight-light">Descripción</h1>
+        <p class="lead justify"> Front-End Developer con intereses en desarrollar productos web de mayor calidad, manteniendo las buenas practicas  en el desarrollo con código limpio y reutilizable, aprender más sobre  Javascript y la librería  React.</p>
+        <p class="lead justify">Con  habilidades para enfrentar nuevos desafíos y la determinación de mejorar continuamente como profesional y como ser humano en cada tarea encomendada.
+        Investigando y resolviendo problemas.</p>
+        
+        </div>
+        </section>
           
-      
-      <h2 class="font-weight-light margin-text"><strong>Habilidades Tecnicas</strong></h2>
+        
+        <h2 class="font-weight-light margin-text"><strong>Habilidades Tecnicas</strong></h2>
 
       <ul class="list-group tabla-criterios">
       <li class="list-group-item">Javascript</li>
@@ -57,7 +57,7 @@ export const vermicv = () => {
       <li class="list-group-item">Facilidad de adaptación</li>
       </ul>
 
-      <a href="https://www.canva.com/design/DADTNOqwT1o/HrM94PmdEY3rMuQ2dVUZig/view?utm_content=DADTNOqwT1o&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"><h3 class="font-weight-light margin-text"><strong> Ver mi CV online</strong></h3></a>
+      <a href="../src/cv-pdf/References_.pdf" download="cv_Dyanara_Guerra"><h3 class="lead margin-text"><strong> Descargar cv </strong></h3></a>
 
         
             </div>
