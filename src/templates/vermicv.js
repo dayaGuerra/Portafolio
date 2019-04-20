@@ -10,7 +10,7 @@ export const vermicv = () => {
         <h2 class=" my-4">Mi CV Digital</h2>
         <h1 class="font-weight-light">D'yanara Guerra riega</h1>
         <div class="text-center">
-        <img class=" rounded card-img-top" src="../src/img/laptop-2.jpg" alt="fondo">
+        <img class=" rounded card-img-top" src="https://i.ibb.co/2SqLTxQ/Whats-App-Image-2019-04-19-at-6-03-33-PM.jpg">
 
 </div>
 
@@ -19,8 +19,8 @@ export const vermicv = () => {
 <section class="py-5">
   <div class="container">
   <h1 class="font-weight-light">Descripción</h1>
-  <p class="lead justify"> Front-End Developer con intereses en desarrollar productos web de mayor calidad, manteniendo las buenas practicas  en el desarrollo con código limpio y reutilizable, aprender mas sobre  Javascript y la librería  React.</p>
-  <p class="lead">Con  habilidades para enfrentar nuevos desafíos y la determinación de mejorar continuamente como profesional y como ser humano en cada tarea encomendada.
+  <p class="lead justify"> Front-End Developer con intereses en desarrollar productos web de mayor calidad, manteniendo las buenas practicas  en el desarrollo con código limpio y reutilizable, aprender más sobre  Javascript y la librería  React.</p>
+  <p class="lead justify">Con  habilidades para enfrentar nuevos desafíos y la determinación de mejorar continuamente como profesional y como ser humano en cada tarea encomendada.
   Investigando y resolviendo problemas.</p>
   
   </div>

@@ -1,5 +1,3 @@
-
-
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -13,9 +11,11 @@
 .margin {
   margin-top: 80px;
 }
+
 .justify{
   text-align: justify;
 }
+
 .margin-bottom {
   margin-bottom: 60px;
 }
@@ -27,26 +27,11 @@
 width: 35px;
 }
 
-.herramientas{
-  list-style-type: decimal-leading-zero;
-}
+.width-text{
+  width: 60%;
+  }
 
-#centrador{
-  position: relative;
-  width: 50%;
-  height: 50%;
-  background-color: #B5E0D9;
-}
 
-#imagen{
-  position: absolute;
-  width: 50%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
 .img-cv{
   height: 60vh;
   background-size: contain;
@@ -56,4 +41,21 @@ width: 35px;
 
 .tabla-criterios{
   width: 50%
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+.btn-dark:hover {
+  opacity:0.6
+}
+
+.new-color{
+  background-color: rgba(0, 0, 0, 0.329);
+}
+
+.new-color-white{
+  background-color: rgba(255, 255, 255, 0.76);
 }

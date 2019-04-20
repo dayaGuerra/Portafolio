@@ -14,8 +14,8 @@ export const proyectosWeb = () => {
       <!-- Project One -->
       <div class="row margin-text justify">
         <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/md-links.png" alt="md-link proyecto">
+          <a href="https://github.com/dayaGuerra/LIM008-fe-md-links">
+            <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/md-links.png" alt="md-link proyecto">
           </a>
         </div>
         <div class="col-md-5">
@@ -36,7 +36,7 @@ export const proyectosWeb = () => {
           <li>Node fetch</li>
           </ul>
 
-          <a class="btn btn-primary" href="https://github.com/dayaGuerra/LIM008-fe-md-links">View Project</a>
+          <a class="btn btn-dark " href="https://github.com/dayaGuerra/LIM008-fe-md-links">View Project</a>
         </div>
       </div>
       <!-- /.row -->
@@ -46,8 +46,8 @@ export const proyectosWeb = () => {
       <!-- Project Two -->
       <div class="row margin justify">
         <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/ayni.png" alt="proyecto ayni red social">
+          <a href="https://github.com/dayaGuerra/LIM008-social-network">
+            <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/ayni.png" alt="proyecto ayni red social">
           </a>
         </div>
         <div class="col-md-5">
@@ -60,7 +60,7 @@ export const proyectosWeb = () => {
           <li>CSS plano</li>
           <li>Firebase</li>
           </ul>
-          <a class="btn btn-primary" href="https://github.com/dayaGuerra/LIM008-social-network">View Project</a>
+          <a class="btn btn-dark" href="https://github.com/dayaGuerra/LIM008-social-network">View Project</a>
         </div>
         
       </div>
@@ -71,8 +71,8 @@ export const proyectosWeb = () => {
       <!-- Project Three -->
       <div class="row margin justify">
         <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/injuries-data.png" alt="proyecto Injuries data Portal">
+          <a href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-data-lovers">
+            <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/injuries-data.png" alt="proyecto Injuries data Portal">
           </a>
         </div>
         <div class="col-md-5">
@@ -87,7 +87,7 @@ export const proyectosWeb = () => {
           <li>Fetch</li>
           </ul>
           
-          <a class="btn btn-primary" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-data-lovers">View Project</a>
+          <a class="btn btn-dark" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-data-lovers">View Project</a>
         </div>
       </div>
       <!-- /.row -->
@@ -99,7 +99,7 @@ export const proyectosWeb = () => {
 
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="../src/img/encryption-spoiler.png" alt="proyecto encryption spoiler">
+            <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/encryption-spoiler.png" alt="proyecto encryption spoiler">
           </a>
         </div>
         <div class="col-md-5">
@@ -114,7 +114,7 @@ export const proyectosWeb = () => {
           <li>CSS plano</li>
           <li>manipilación de codigo ASCII</li>
           </ul>
-          <a class="btn btn-primary" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-cipher">View Project</a>
+          <a class="btn btn-dark" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-cipher">View Project</a>
         </div>
       </div>
       <!-- /.row -->
