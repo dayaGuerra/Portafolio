@@ -14,7 +14,7 @@
         <div class="card border-0 shadow my-5">
         <div class="p-5">
         
-          <h2 class="font-weight-light"><strong>Contactame</strong></h2>  
+          <h2 class="font-weight-light"><strong>Contáctame</strong></h2>  
         <div class="row no-gutters bg-light position-relative">
         <div class="col-md-6 mb-md-0 p-md-4">
           <img src="https://i.ibb.co/2SqLTxQ/Whats-App-Image-2019-04-19-at-6-03-33-PM.jpg" class="w-100" alt="busto dyanara">

@@ -30,6 +30,7 @@ export const templateMe = () => {
       <div class="new-color d-flex flex-column-reverse bd-highlight  h-100 align-items-center justify-content-center">
       <a class="btn btn-dark " href="#/proyectos">Ver Proyectos</a>
       <h3 class="display-4 text-center text-white">Hola, Soy D'yanara Guerra</h3>
+      <h3 class="display-4 text-center text-white">Frontend Developer</h3>
     
         </div>
         

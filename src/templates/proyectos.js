@@ -7,7 +7,52 @@ export const proyectosWeb = () => {
     <div class="card border-0 shadow my-5">
     <div class="p-5">
       <!-- Page Heading -->
-      <h2 class="font-weight-light"><strong>Proyectos</strong></h2>
+      <h2 class="font-weight-light"><strong>Proyectos</stron00000000.
+      
+      
+      
+      
+      
+      
+
+      0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      g></h2>
       <h1 class="font-weight-light margin-text">Últimos proyectos realizados</h1>
       
 
