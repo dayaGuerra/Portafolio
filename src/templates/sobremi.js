@@ -29,9 +29,9 @@ export const templateMe = () => {
       <div class="carousel-item active" style="background-image: url('https://i.ibb.co/Nt27jJW/notebook-1280538.jpg')">
       <div class="new-color d-flex flex-column-reverse bd-highlight  h-100 align-items-center justify-content-center">
       <a class="btn btn-dark " href="#/proyectos">Ver Proyectos</a>
-      <h3 class="display-4 text-center text-white">Hola, Soy D'yanara Guerra</h3>
       <h3 class="display-4 text-center text-white">Frontend Developer</h3>
-    
+      <h3 class="display-4 text-center text-white">Hola, Soy D'yanara Guerra</h3>
+     
         </div>
         
       </div>
