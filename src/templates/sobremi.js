@@ -29,8 +29,8 @@ export const templateMe = () => {
       <div class="carousel-item active" style="background-image: url('https://i.ibb.co/Nt27jJW/notebook-1280538.jpg')">
       <div class="new-color d-flex flex-column-reverse bd-highlight  h-100 align-items-center justify-content-center">
       <a class="btn btn-dark " href="#/proyectos">Ver Proyectos</a>
-      <h3 class="display-4 text-center text-white">Frontend Developer</h3>
-      <h3 class="display-4 text-center text-white">Hola, Soy D'yanara Guerra</h3>
+      <h3 class="display-4 text-center text-white text-shadow-h3">Frontend Developer</h3>
+      <h3 class="display-4 text-center text-white text-shadow-h3">Hola, Soy D'yanara Guerra</h3>
      
         </div>
         
@@ -40,8 +40,8 @@ export const templateMe = () => {
       <div class="carousel-item" style="background-image: url('https://i.ibb.co/jZjsfgW/work-731198.jpg')">
       <div class="new-color d-flex flex-column-reverse bd-highlight  h-100 align-items-center justify-content-center">
        
-      <p class="lead p-3 mb-2 text-dark new-color-white width-text  text-center">Aprender sobre código, hace que me sienta feliz y en armonía.</p>
-      <h3 class="display-4 text-center new-color-white text-dark">Me gusta</h3>
+      <h3 class=" p-3 mb-2 text-white  width-text  text-center text-shadow-h3">Aprender más tecnologías, usando códigos reutilizables, manteniendo las buenas practicas.</h3>
+      <h3 class="display-4 text-center  text-white text-shadow-h3">Me gusta</h3>
       
         </div>
       </div>
@@ -51,9 +51,9 @@ export const templateMe = () => {
       <div class="carousel-item" style="background-image: url('https://i.ibb.co/FJJNTgC/startup-594090.jpg')">
       <div class="new-color d-flex flex-column-reverse bd-highlight  h-100 align-items-center justify-content-center">
        
-      <p class="lead p-3 mb-2 new-color-white text-dark  text-center width-text">Resolver problemas brindando soluciones sencillas y de facil aplicación.</p>
+      <h3 class=" p-3 mb-2  text-white  text-center width-text text-shadow-h3">Resolver problemas brindando soluciones sencillas y de facil aplicación.</h3>
 
-      <h3 class="display-4 new-color-white text-center text-dark">Mi pasión es</h3>
+      <h3 class="display-4 text-center text-white text-shadow-h3">Mi pasión es</h3>
       
         </div>
       </div>
