@@ -58,7 +58,8 @@ export const vermicv = () => {
         </div>
       </div>
 
-      <a href="../src/cv-pdf/References_.pdf" download="cv_Dyanara_Guerra"><h3 class="lead margin-text"><strong> Descargar cv </strong></h3></a>
+      <a href="../src/cv-pdf/Guerra-Riega.Dyanara.pdf" download="cv_Dyanara_Guerra" target="blank"><h3 class="lead margin-text"><strong> Descargar cv </strong></h3></a>
+      
 
         
             </div>
