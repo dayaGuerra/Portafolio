@@ -19,7 +19,7 @@ export const proyectosWeb = () => {
         </a>
       </div>
       <div class="col-md-5">
-        <h3>Proyecto TaentFest19 - Cliente Álicorp</h3>
+        <h3>Proyecto TalentFest19 - Cliente Álicorp</h3>
                 
         <p>Plataforma de venta interna para generar colaboradores emprendedores dentro de la empresa de álicorp.</p>
         <ul>
