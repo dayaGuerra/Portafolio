@@ -28,8 +28,13 @@ export const templateMe = () => {
       <!-- Slide One - Set the background image for this slide in the line below -->
       <div class="carousel-item active" style="background-image: url('https://i.ibb.co/Nt27jJW/notebook-1280538.jpg')">
       <div class="new-color d-flex flex-column-reverse bd-highlight  h-100 align-items-center justify-content-center">
-      <a class="btn btn-dark " href="#/proyectos">Ver Proyectos</a>
-      <h3 class="display-4 text-center text-white text-shadow-h3">Frontend Developer</h3>
+      
+      <div class= "">
+      <a class="btn btn-dark" href="../src/cv-pdf/Guerra-Riega.Dyanara.pdf" download="cv_Dyanara_Guerra" target="blank">Descargar CV</a>
+      <a class="btn btn-dark" href="#/proyectos">Ver Proyectos</a>
+      </div>
+
+      <h3 class="display-4 text-center text-white text-shadow-h3">Front-End Developer</h3>
       <h3 class="display-4 text-center text-white text-shadow-h3">Hola, Soy D'yanara Guerra</h3>
      
         </div>

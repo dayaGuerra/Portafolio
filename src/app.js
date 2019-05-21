@@ -22,8 +22,8 @@ const viewTmp = (routers) => {
   switch (router) {
     case 'sobremi':
     container.appendChild(templateMe());
-  
     break;
+  
     case 'proyectos':
     container.appendChild(proyectosWeb());
     
@@ -31,6 +31,7 @@ const viewTmp = (routers) => {
     case 'cvdigital':
     container.appendChild(vermicv());
     break;
+    
     case 'contacto':
     container.appendChild(contactame());
     break;

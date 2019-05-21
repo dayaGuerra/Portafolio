@@ -11,10 +11,40 @@ export const proyectosWeb = () => {
       <h1 class="font-weight-light margin-text">Últimos proyectos realizados</h1>
       
 
+      <!-- Project zero -->
+      <div class="row margin-text justify">
+      <div class="col-md-7">
+        <a href="https://alicorp-catalogo-firestore.firebaseapp.com/vista2/homepage" target= "blank">
+          <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/alicorp.png" alt="md-link proyecto">
+        </a>
+      </div>
+      <div class="col-md-5">
+        <h3>Proyecto TaentFest19 - Cliente Álicorp</h3>
+                
+        <p>Plataforma de venta interna para generar colaboradores emprendedores dentro de la empresa de álicorp.</p>
+        <ul>
+        <li>Registro de personal</li>
+        <li>Selección de productos a comprar</li>
+        <li>Plataforma de registro de compra y venta de producto</li>
+        </ul>
+        <ul class = "herramientas">
+        <li>Angular</li>
+        <li>Firebase</li>
+        <li>Typescript</li>
+        <li>Bootstrap</li>
+        </ul>
+
+        <a class="btn btn-dark "  target= "blank" href="https://github.com/dayaGuerra/catalogo-alicorp-talent">View Project</a>
+      </div>
+    </div>
+
+      <!-- /.row -->
+      <hr>
+
       <!-- Project One -->
       <div class="row margin-text justify">
       <div class="col-md-7">
-        <a href="https://burguer-queen-product.firebaseapp.com/home">
+        <a href="https://burguer-queen-product.firebaseapp.com/home" target= "blank">
           <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/hambu.png" alt="md-link proyecto">
         </a>
       </div>
@@ -36,7 +66,7 @@ export const proyectosWeb = () => {
         <li>Bootstrap</li>
         </ul>
 
-        <a class="btn btn-dark " href="https://github.com/dayaGuerra/LIM008-fe-burger-queen">View Project</a>
+        <a class="btn btn-dark " href="https://github.com/dayaGuerra/LIM008-fe-burger-queen" target= "blank">View Project</a>
       </div>
     </div>
 
@@ -46,7 +76,7 @@ export const proyectosWeb = () => {
       <!-- Project Two --> 
       <div class="row margin-text justify">
         <div class="col-md-7">
-          <a href="https://github.com/dayaGuerra/LIM008-fe-md-links">
+          <a href="https://github.com/dayaGuerra/LIM008-fe-md-links" target= "blank">
             <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/md-links.png" alt="md-link proyecto">
           </a>
         </div>
@@ -68,7 +98,7 @@ export const proyectosWeb = () => {
           <li>Node fetch</li>
           </ul>
 
-          <a class="btn btn-dark " href="https://github.com/dayaGuerra/LIM008-fe-md-links">View Project</a>
+          <a class="btn btn-dark " href="https://github.com/dayaGuerra/LIM008-fe-md-links" target= "blank">View Project</a>
         </div>
       </div>
       <!-- /.row -->
@@ -78,7 +108,7 @@ export const proyectosWeb = () => {
       <!-- Project Three --> 
       <div class="row margin justify">
         <div class="col-md-7">
-          <a href="https://dayaguerra.github.io/LIM008-social-network/src/">
+          <a href="https://dayaguerra.github.io/LIM008-social-network/src/" target= "blank">
             <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/ayni.png" alt="proyecto ayni red social">
           </a>
         </div>
@@ -91,7 +121,7 @@ export const proyectosWeb = () => {
           <li>CSS plano</li>
           <li>Firebase</li>
           </ul>
-          <a class="btn btn-dark" href="https://github.com/dayaGuerra/LIM008-social-network">View Project</a>
+          <a class="btn btn-dark" href="https://github.com/dayaGuerra/LIM008-social-network" target= "blank">View Project</a>
         </div>
         
       </div>
@@ -102,7 +132,7 @@ export const proyectosWeb = () => {
       <!-- Project Four -->
       <div class="row margin justify">
         <div class="col-md-7">
-          <a href="https://dayaguerra.github.io/lim-2018-11-bc-core-am-data-lovers/src/">
+          <a href="https://dayaguerra.github.io/lim-2018-11-bc-core-am-data-lovers/src/" target= "blank">
             <img class="zoom img-fluid rounded mb-3 mb-md-0 shadow p-3 mb-5 bg-white rounded" src="../src/img/injuries-data.png" alt="proyecto Injuries data Portal">
           </a>
         </div>
@@ -116,7 +146,7 @@ export const proyectosWeb = () => {
           <li>Fetch</li>
           </ul>
           
-          <a class="btn btn-dark" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-data-lovers">View Project</a>
+          <a class="btn btn-dark" href="https://github.com/dayaGuerra/lim-2018-11-bc-core-am-data-lovers" target= "blank">View Project</a>
         </div>
       </div>
       <!-- /.row -->
